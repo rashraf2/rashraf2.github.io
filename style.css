@@ -172,6 +172,7 @@ body {
     backdrop-filter: blur(10px);
     border:none;
     z-index:2;
+    animation:none;
 }
 @keyframes animateIn {
     from {
