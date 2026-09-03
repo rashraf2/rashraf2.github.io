@@ -45,6 +45,7 @@ body {
     flex-direction: column;
     gap: var(--n1);
     padding: var(--n1);
+    overflow-x:hidden;
 }
 
 .title {
@@ -187,7 +188,7 @@ body {
 
     html,
     body {
-        font-size: 17px;
+        font-size: 16.8px;
     }
     :root {
         --n1:20px;
