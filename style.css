@@ -62,7 +62,7 @@ body {
     text-align: center;
     animation: animateIn linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 60vh;
+    animation-range: entry 0 cover 75vh;
 }
 
 #main {
