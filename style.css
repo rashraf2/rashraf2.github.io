@@ -1,4 +1,4 @@
-:root {
+-:root {
     --n1: 30px;
     --n2: 30px;
 }
@@ -173,6 +173,7 @@ body {
     border:none;
     z-index:2;
     animation:none;
+    display:none;
 }
 @keyframes animateIn {
     from {
