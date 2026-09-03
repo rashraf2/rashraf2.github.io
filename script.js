@@ -13,3 +13,10 @@ function updateFunct() {
     }
 }
 updateFunct();
+window.onscroll = function() {
+    if (document.documentElement.scrollTop > 40) {
+        document.getElementById('scroller').style.display = "block";
+    }  else {
+                document.getElementById('scroller').style.display = "none";
+    }
+}
