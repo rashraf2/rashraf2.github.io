@@ -23,7 +23,11 @@ body {
     word-wrap: break-word;
     scroll-behavior: smooth;
 }
-
+body * {
+            animation: animateIn linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 37.5%;
+}
 h1,
 h2,
 h3,
@@ -60,9 +64,10 @@ body {
     flex-direction: column;
     line-height: 1.2;
     text-align: center;
+    /*
     animation: animateIn linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 75vh;
+    animation-range: entry 0 cover 75vh;*/
 }
 
 #main {
