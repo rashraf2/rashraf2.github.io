@@ -738,7 +738,7 @@ body.menu .nodisplay {
 
 #grid-cont::before {
     position: absolute;
-    content: "Updates every 20 seconds";
+    content: "Updates every 15 seconds";
     bottom: 10px;
     left: 10px;
     font-size: 0.5em;
