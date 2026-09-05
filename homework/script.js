@@ -372,5 +372,5 @@ function testFunct() {
     } else {
         selector += 1;
     }
-    girds[selector].style.display = ('grid');
+    girds[selector].style.display = ('none');
 }
