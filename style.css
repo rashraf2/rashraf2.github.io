@@ -23,11 +23,6 @@ body {
     word-wrap: break-word;
     scroll-behavior: smooth;
 }
-body * {
-            animation: animateIn linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 25%;
-}
 h1,
 h2,
 h3,
@@ -65,6 +60,9 @@ body {
     flex-direction: column;
     line-height: 1.2;
     text-align: center;
+             animation: animateIn linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 25%;
     /*
     animation: animateIn linear;
     animation-timeline: view();
@@ -168,6 +166,9 @@ align-self:center;
     overflow-x: auto;
     scrollbar-width: none;
     font-size: 1.1em;
+             animation: animateIn linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 25%;
 }
 
 .contact:hover,
