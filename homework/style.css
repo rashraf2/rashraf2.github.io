@@ -764,19 +764,6 @@ body.menu .nodisplay {
     /*https://stackoverflow.com/questions/8639282/notempty-css-selector-is-not-working*/
 
 }
-
-.hw-grid.show {
-    display: grid;
-    animation: fadein 0.5s;
-}
-
-.hw-grid.hide {
-    transform: translateX(-5%);
-    opacity: 0;
-    animation: none;
-    transition: 0.5s;
-}
-
 .subject-cont {
     display: flex;
     position: relative;
