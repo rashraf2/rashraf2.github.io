@@ -1525,22 +1525,6 @@ body * {
         height: 0;
     }
 
-    .hw-grid.hide {
-        display: grid;
-        scale: 1;
-        opacity: 1;
-        animation: none;
-        transform: none;
-    }
-
-    .hw-grid.show {
-        animation: none;
-        display: grid;
-        scale: 1;
-        opacity: 1;
-        transform: none;
-    }
-
     #grid-cont {
         gap: 20px;
     }
