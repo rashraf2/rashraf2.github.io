@@ -28,7 +28,7 @@ let username;
 let avail;
 let array;
 const strArray = ['Hey there', 'Hello', 'Nice day to do homework', 'Good day', 'Back again', 'Ready to study', 'What\'s up', 'Got a lot of homework', 'Do you have your planner', 'What subjects do you have today', 'Enjoying your school year', 'This text is here for no reason', 'What subject are you doing first'];
-const proctors = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5'];
+const proctors = ['Dr. Madden', 'Ms. Saunders', 'Dr. Madden', 'Ms. Saunders', 'Dr. Madden'];
 const alertTypes = ['success', 'info', 'warning', 'error'];
 const punctArray = ['!', '!', '!', '!', '?', '?', '?', '?', '?', '?', '?', '.', '?'];
 const girds = document.querySelectorAll(".hw-grid");
@@ -198,7 +198,7 @@ function checkFunct() {
     for (a = 0; a < document.body.querySelectorAll(".menu-input").length; a++) {
         document.querySelectorAll('.menu-input')[a].checked = false;
     }
-    document.getElementById("proctor").innerHTML = proctors[day] + ' | No name' || 'No proctor';
+    document.getElementById("proctor").innerHTML = proctors[day] || 'No proctor';
 }
 function dataFunct() {
     for (i = 0; i < document.querySelectorAll('.theme-btn').length; i++) {
