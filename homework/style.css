@@ -751,7 +751,6 @@ body.menu .nodisplay {
 }
 
 .hw-grid {
-    display: none;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     border-radius: 20px;
