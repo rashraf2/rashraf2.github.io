@@ -313,7 +313,7 @@ function initialize() {
     dataFunct();
     arrayFunct();
     themeSelect();
-    setTimeout(testFunctMain, 14500);
+    setTimeout(testFunctMain, 15000);
 }
 window.onload = function () {
     initialize();
@@ -361,17 +361,16 @@ function sendAlert(content, type) {
 }
 selector = 0;
 function testFunctMain() {
-    document.querySelectorAll('.hw-grid')[selector].classList.add('hide');
-    setTimeout(testFunct, 500);
-    setTimeout(testFunctMain, 14500);
+    document.querySelectorAll('.hw-grid')[selector].style.display = ('none');
+    setTimeout(testFunctMain, 15000);
+    testFunct();
 }
 function testFunct() {
-    document.querySelectorAll('.hw-grid')[selector].classList.remove('show');
-    document.querySelectorAll('.hw-grid')[selector].classList.remove('hide');
+    document.querySelectorAll('.hw-grid')[selector].style.display = ('grid');
     if (selector === document.querySelectorAll('.hw-grid').length - 1) {
         selector = 0;
     } else {
         selector += 1;
     }
-    girds[selector].classList.add('show');
+    girds[selector].style.display = ('grid');
 }
