@@ -12,6 +12,9 @@ function updateFunct() {
         currText = 0;
     }
 }
+document.addEventListener('DOMContentLoaded', () => {
+document.documentElement.scrollTop = 0;
+});
 updateFunct();
 window.onscroll = function() {
     if (document.documentElement.scrollTop > 40) {
