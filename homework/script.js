@@ -313,7 +313,7 @@ function initialize() {
     dataFunct();
     arrayFunct();
     themeSelect();
-    setTimeout(testFunctMain, 15500);
+    setTimeout(testFunctMain, 15000);
 }
 window.onload = function () {
     initialize();
