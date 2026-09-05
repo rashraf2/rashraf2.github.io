@@ -361,12 +361,12 @@ function sendAlert(content, type) {
 }
 selector = 0;
 function testFunctMain() {
-    document.querySelectorAll('.hw-grid')[selector].style.display = ('none');
+    document.querySelectorAll('.hw-grid')[selector].style.display = ('grid');
     setTimeout(testFunctMain, 15000);
     testFunct();
 }
 function testFunct() {
-    document.querySelectorAll('.hw-grid')[selector].style.display = ('grid');
+    document.querySelectorAll('.hw-grid')[selector].style.display = ('none');
     if (selector === document.querySelectorAll('.hw-grid').length - 1) {
         selector = 0;
     } else {
