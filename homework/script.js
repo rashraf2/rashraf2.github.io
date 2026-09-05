@@ -363,7 +363,7 @@ selector = 0;
 function testFunctMain() {
     document.querySelectorAll('.hw-grid')[selector].classList.add('hide');
     setTimeout(testFunct, 500);
-    setTimeout(testFunctMain, 15000);
+    setTimeout(testFunctMain, 14500);
 }
 function testFunct() {
     document.querySelectorAll('.hw-grid')[selector].classList.remove('show');
