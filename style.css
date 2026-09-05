@@ -63,6 +63,7 @@ body {
              animation: animateIn linear;
     animation-timeline: view();
     animation-range: entry 0 cover 45%;
+    gap:10px;
     /*
     animation: animateIn linear;
     animation-timeline: view();
