@@ -491,7 +491,7 @@ input:checked:after {
     box-shadow: 0px 0px 25px 10px var(--ds);
     border: 3px solid;
     height: 400px;
-    overflow: auto;
+    overflow-y: auto;
 }
 
 /*https://stackoverflow.com/questions/40676648/how-can-i-position-one-element-below-another*/
@@ -512,6 +512,7 @@ input:checked:after {
     transition: 0s;
     overflow: hidden;
     min-height: fit-content;
+    height:fit-content;
 }
 
 .theme-btn:focus-visible {
