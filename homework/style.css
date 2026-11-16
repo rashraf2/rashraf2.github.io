@@ -291,6 +291,7 @@ button:hover:after {
     font-size: 3em;
     font-weight: bold;
     text-align: left;
+    line-height:1;
 }
 
 .popup.active {
