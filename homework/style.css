@@ -7,7 +7,7 @@
     /*--n1: 20px;
     --n2: 10px;*/
         --n1: 22.5px;
-    --n2: 12.5px;
+    --n2: 10.5px;
     --nav: 75px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
@@ -725,14 +725,14 @@ body.all-grids {
     body {
         min-height: calc(100vh - var(--nav));
         height: auto;
-        font-size: 16.65px;
+        font-size: 16.15px;
     }
 
     #loading-screen {
         flex-direction: column;
         padding: var(--n1);
         gap: var(--n1);
-        font-size:0.75em;
+        font-size:0.85em;
     }
 
     .setup-sect {
