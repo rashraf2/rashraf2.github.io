@@ -340,8 +340,8 @@ button:hover:after {
     box-shadow: 0px 0px 8px 5px var(--b2);
     height: var(--nav);
     width: 100%;
-    padding: /*var(--n2)*/10px;
-    padding-inline: 20px;
+    padding: var(--n2);
+    padding-inline: var(--n1);
     display: flex;
     justify-content: space-between;
     user-select: none;
@@ -718,7 +718,7 @@ body.all-grids {
 }
 
 /*Media*/
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:970px) {
     .grid {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -726,9 +726,11 @@ body.all-grids {
     body {
         min-height: calc(100vh - var(--nav));
         height: auto;
-        font-size: 16.3px;
+        font-size: 16.4px;
     }
-
+    .grid {
+        font-size:0.65em;
+    }
     #loading-screen {
         flex-direction: column;
         padding: var(--n1);
@@ -747,8 +749,13 @@ body.all-grids {
     #logo-text {
         display: none;
     }
+    
+.popup-wrapper {
+    display: flex;
+    flex-direction:column;
+    gap: var(--n1);
 }
-
+}
 /*Animation keyframes*/
 @keyframes rotate {
     from {
