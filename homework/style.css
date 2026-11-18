@@ -537,6 +537,7 @@ button:hover:after {
     min-height: calc(100vh - var(--n1) * 8);
     transition: 0.3s allow-discrete;
     opacity: 1;
+    font-size:0.85em;
     filter: none;
     scale: 1;
 }
