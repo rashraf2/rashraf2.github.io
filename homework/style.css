@@ -6,15 +6,15 @@
     --c2: black;
     /*--n1: 20px;
     --n2: 10px;*/
-        --n1: 22.5px;
-    --n2: 10.5px;
-    --nav: 75px;
+        --n1: 24px;
+    --n2: 12px;
+    --nav: 85px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
 
 html,
 body {
-    font-size: 18.3px;
+    font-size: 19.2px;
     letter-spacing: 0.5px;
     scrollbar-color: var(--c1) transparent;
     color: var(--c1);
@@ -725,14 +725,14 @@ body.all-grids {
     body {
         min-height: calc(100vh - var(--nav));
         height: auto;
-        font-size: 16.15px;
+        font-size: 16.4px;
     }
 
     #loading-screen {
         flex-direction: column;
         padding: var(--n1);
         gap: var(--n1);
-        font-size:0.85em;
+        font-size:0.9em;
     }
 
     .setup-sect {
