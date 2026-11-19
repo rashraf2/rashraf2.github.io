@@ -726,10 +726,7 @@ body.all-grids {
     body {
         min-height: calc(100dvh - var(--nav));
         height: auto;
-        font-size: 16.4px;
-    }
-    .grid {
-        font-size:0.45em;
+        font-size: 15px;
     }
     #loading-screen {
         flex-direction: column;
