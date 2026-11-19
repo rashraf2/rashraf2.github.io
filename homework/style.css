@@ -6,8 +6,8 @@
     --c2: black;
     /*--n1: 20px;
     --n2: 10px;*/
-        --n1: 22px;
-    --n2: 11px;
+        --n1: 25px;
+    --n2: 15px;
     --nav: 95px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
@@ -32,7 +32,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    font-weight: 480;
+    font-weight: 490;
 
 }
 
@@ -71,8 +71,8 @@ button {
     background-color: var(--b2);
     font-weight: bold;
     font-size: 1.2em;
-    border-radius: var(--n1);
-    padding: calc(var(--n1) * 0.75);
+    border-radius: var(--n2);
+    padding: calc(var(--n1) * 0.6);
     padding-inline: var(--n2);
 
 }
@@ -366,7 +366,7 @@ button:hover:after {
 
 #icon-tray {
     display: flex;
-    gap: var(--n2);
+    gap: var(--n1);
     height: 100%;
     align-items: center;
     justify-content: center;
