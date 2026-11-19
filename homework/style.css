@@ -723,13 +723,13 @@ body.all-grids {
         grid-template-columns: repeat(1, 1fr);
     }
 :root {
-            --n1: 20px;
-    --n2: 14px;
+            --n1: 22px;
+    --n2: 16px;
 }
     body {
         min-height: calc(100dvh - var(--nav));
         height: auto;
-        font-size: 15px;
+        font-size: 15.2px;
         
     }
     #loading-screen {
