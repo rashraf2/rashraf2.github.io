@@ -724,7 +724,7 @@ body.all-grids {
     }
 :root {
             --n1: 18px;
-    --n2: 10px;
+    --n2: 12px;
 }
     body {
         min-height: calc(100dvh - var(--nav));
