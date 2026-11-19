@@ -390,8 +390,8 @@ button:hover:after {
 
 .close-btn {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: var(--n1);
+    right: var(--n1);
  background:none;
     padding:0;
     width:fit-content;
