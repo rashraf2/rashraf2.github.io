@@ -340,8 +340,8 @@ button:hover:after {
     box-shadow: 0px 0px 8px 5px var(--b2);
     height: var(--nav);
     width: 100%;
-    padding: 15px;
-    padding-inline:30px;
+    padding: var(--n2);
+    padding-inline:var(--n1);
     display: flex;
     justify-content: space-between;
     user-select: none;
