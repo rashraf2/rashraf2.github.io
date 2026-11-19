@@ -6,8 +6,8 @@
     --c2: black;
     /*--n1: 20px;
     --n2: 10px;*/
-        --n1: 25px;
-    --n2: 12.5px;
+        --n1: 24px;
+    --n2: 14px;
     --nav: 90px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
@@ -729,7 +729,7 @@ body.all-grids {
         font-size: 16.4px;
     }
     .grid {
-        font-size:0.65em;
+        font-size:0.45em;
     }
     #loading-screen {
         flex-direction: column;
