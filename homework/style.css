@@ -7,7 +7,7 @@
     /*--n1: 20px;
     --n2: 10px;*/
         --n1: 30px;
-    --n2: 18px;
+    --n2: 22px;
     --nav: 95px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
@@ -722,23 +722,28 @@ body.all-grids {
     .grid {
         grid-template-columns: repeat(1, 1fr);
     }
-
+:root {
+            --n1: 18px;
+    --n2: 10px;
+}
     body {
         min-height: calc(100dvh - var(--nav));
         height: auto;
         font-size: 15px;
+        
     }
     #loading-screen {
         flex-direction: column;
         padding: var(--n1);
         gap: var(--n1);
-        font-size:0.9em;
     }
 
     .setup-sect {
         padding: var(--n1);
     }
-
+    #grid-cont {
+    font-size:0.75em;
+    }
     #load-img {
         display:none;
     }
