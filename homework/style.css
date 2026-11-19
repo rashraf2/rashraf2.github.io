@@ -6,9 +6,9 @@
     --c2: black;
     /*--n1: 20px;
     --n2: 10px;*/
-        --n1: 30px;
-    --n2: 18px;
-    --nav: 90px;
+        --n1: 26px;
+    --n2: 14px;
+    --nav: 95px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
 
@@ -340,8 +340,8 @@ button:hover:after {
     box-shadow: 0px 0px 8px 5px var(--b2);
     height: var(--nav);
     width: 100%;
-    padding: var(--n2);
-    padding-inline: var(--n1);
+    padding: 15px;
+    padding-inline:30px;
     display: flex;
     justify-content: space-between;
     user-select: none;
@@ -533,7 +533,7 @@ button:hover:after {
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: var(--n1);
        min-height: 100%;
     transition: 0.3s allow-discrete;
     opacity: 1;
