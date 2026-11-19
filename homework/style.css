@@ -535,7 +535,7 @@ button:hover:after {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    min-height: calc(100vh - var(--n1) * 8);
+       min-height: 100%;
     transition: 0.3s allow-discrete;
     opacity: 1;
     font-size:0.85em;
