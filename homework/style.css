@@ -729,7 +729,7 @@ body.all-grids {
     body {
         min-height: calc(100dvh - var(--nav));
         height: auto;
-        font-size: 16.5px;
+        font-size: 15.25px;
         
     }
     #loading-screen {
@@ -740,8 +740,8 @@ body.all-grids {
     .setup-sect {
         padding: var(--n1);
     }
-    #grid-cont {
-    font-size:12px;
+    #grid-cont, .grid {
+    font-size:11px;
     }
     #load-img {
         display:none;
