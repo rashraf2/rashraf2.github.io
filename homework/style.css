@@ -462,7 +462,7 @@ button:hover:after {
     width: 100%;
     font-size: 1.2em;
     background: var(--b1);
-    padding: 15px;
+    padding: var(--n2);
     border-radius: var(--n1);
     align-items: center;
 }
