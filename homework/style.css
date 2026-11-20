@@ -463,7 +463,7 @@ button:hover:after {
     font-size: 1.2em;
     background: var(--b1);
     padding: 15px;
-    border-radius: var(--n2);
+    border-radius: var(--n1);
     align-items: center;
 }
 
