@@ -6,8 +6,8 @@
     --c2: black;
     /*--n1: 20px;
     --n2: 10px;*/
-        --n1: 30px;
-    --n2: 15px;
+        --n1: 25px;
+    --n2: 12.5px;
     --nav: 95px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
@@ -71,7 +71,7 @@ button {
     background-color: var(--b2);
     font-weight: bold;
     font-size: 1.2em;
-    border-radius: var(--n1);
+    border-radius: var(--n2);
     padding: var(--n2);
     padding-inline: var(--n1);
 
@@ -723,8 +723,8 @@ body.all-grids {
         grid-template-columns: repeat(1, 1fr);
     }
 :root {
-            --n1: 24px;
-    --n2: 18px;
+            --n1: 22px;
+    --n2: 14px;
 }
     body {
         min-height: calc(100dvh - var(--nav));
@@ -742,7 +742,7 @@ body.all-grids {
         padding: var(--n1);
     }
     #grid-cont {
-    font-size:0.75em;
+    font-size:12px;
     }
     #load-img {
         display:none;
