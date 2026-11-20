@@ -6,8 +6,8 @@
     --c2: black;
     /*--n1: 20px;
     --n2: 10px;*/
-        --n1: 26px;
-    --n2: 18px;
+        --n1: 24px;
+    --n2: 16px;
     --nav: 95px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
@@ -71,7 +71,7 @@ button {
     background-color: var(--b2);
     font-weight: bold;
     font-size: 1.2em;
-    border-radius: var(--n2);
+    border-radius: var(--n1);
     padding: var(--n2);
     padding-inline: var(--n1);
 
@@ -80,7 +80,7 @@ button {
 input {
     padding: 10px;
     background: var(--b2);
-    border-radius: var(--n2);
+    border-radius: var(--n1);
     color: var(--c1);
     border: none;
     font-size: 1.5em;
@@ -729,7 +729,7 @@ body.all-grids {
     body {
         min-height: calc(100dvh - var(--nav));
         height: auto;
-        font-size: 15.2px;
+        font-size: 15px;
         
     }
     #loading-screen {
@@ -751,6 +751,8 @@ body.all-grids {
     #logo-text {
         display: none;
     }
+    #icon-tray, #nav {
+        gap:var(--n2);
     
 .popup-wrapper {
     display: flex;
