@@ -469,7 +469,7 @@ button:hover:after {
 
 .setting-toggle {
     transition: 0.3s;
-    border-radius: var(--n2);
+    border-radius: 5px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
