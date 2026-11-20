@@ -71,9 +71,9 @@ button {
     background-color: var(--b2);
     font-weight: bold;
     font-size: 1.2em;
-    border-radius: var(--n2);
-    padding: var(--n1);
-    padding-inline: var(--n2);
+    border-radius: var(--n1);
+    padding: var(--n2);
+    padding-inline: var(--n1);
 
 }
 
