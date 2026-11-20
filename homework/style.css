@@ -6,8 +6,8 @@
     --c2: black;
     /*--n1: 20px;
     --n2: 10px;*/
-        --n1: 24px;
-    --n2: 16px;
+        --n1: 28px;
+    --n2: 20px;
     --nav: 95px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
@@ -729,14 +729,13 @@ body.all-grids {
     body {
         min-height: calc(100dvh - var(--nav));
         height: auto;
-        font-size: 15px;
+        font-size: 16.5px;
         
     }
     #loading-screen {
         flex-direction: column;
         padding: var(--n1);
-        gap: var(--n1);
-    }
+        gap: var(--n1);    }
 
     .setup-sect {
         padding: var(--n1);
@@ -752,12 +751,16 @@ body.all-grids {
         display: none;
     }
     #icon-tray, #nav {
-        gap:var(--n2);
-    
+        gap:10px;
+    }
+    #nav {
+        padding-inline:var(--n2);
+    }
 .popup-wrapper {
     display: flex;
     flex-direction:column;
     gap: var(--n1);
+    width:100%;
 }
 }
 /*Animation keyframes*/
