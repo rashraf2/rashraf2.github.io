@@ -7,7 +7,7 @@
     /*--n1: 20px;
     --n2: 10px;4*/
         --n1: 24px;
-    --n2: 18px;
+    --n2: 14px;
     --nav: 95px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
@@ -72,7 +72,7 @@ button {
     font-weight: bold;
     font-size: 1.2em;
     border-radius: var(--n1);
-    padding: var(--n2);
+       padding: var(--n1);
     padding-inline: var(--n1);
 
 }
@@ -462,7 +462,7 @@ button:hover:after {
     width: 100%;
     font-size: 1.2em;
     background: var(--b1);
-    padding: var(--n2);
+    padding: var(--n1);
     border-radius: var(--n1);
     align-items: center;
 }
