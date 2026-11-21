@@ -6,8 +6,8 @@
     --c2: black;
     /*--n1: 20px;
     --n2: 10px;*/
-        --n1: 26px;
-    --n2: 13px;
+        --n1: 22px;
+    --n2: 14px;
     --nav: 95px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
@@ -722,10 +722,6 @@ body.all-grids {
     .grid {
         grid-template-columns: repeat(1, 1fr);
     }
-:root {
-            --n1: 22px;
-    --n2: 14px;
-}
     body {
         min-height: calc(100dvh - var(--nav));
         height: auto;
