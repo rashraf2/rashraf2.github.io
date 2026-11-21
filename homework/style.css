@@ -7,7 +7,7 @@
     /*--n1: 20px;
     --n2: 10px;4*/
         --n1: 24px;
-    --n2: 16px;
+    --n2: 18px;
     --nav: 95px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
@@ -341,7 +341,6 @@ button:hover:after {
     height: var(--nav);
     width: 100%;
     padding: 14px;
-    padding-inline:20px;
     display: flex;
     justify-content: space-between;
     user-select: none;
@@ -721,19 +720,22 @@ body.all-grids {
 
 /*Media*/
 @media only screen and (max-width:970px) {
+    :root {
+               --n1: 20px;
+    --n2: 10px;
     .grid {
         grid-template-columns: repeat(1, 1fr);
     }
     body {
         min-height: calc(100dvh - var(--nav));
         height: auto;
-        font-size: 15.25px;
+        font-size: 15.2px;
         
     }
     #loading-screen {
         flex-direction: column;
         padding: var(--n1);
-        gap: var(--n1);    }
+        gap: var(--n2);    }
 
     .setup-sect {
         padding: var(--n1);
@@ -750,9 +752,6 @@ body.all-grids {
     }
     #icon-tray, #nav {
         gap:10px;
-    }
-    #nav {
-        padding-inline:var(--n2);
     }
 .popup-wrapper {
     display: flex;
