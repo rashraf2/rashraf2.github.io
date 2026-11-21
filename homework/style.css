@@ -351,6 +351,7 @@ button:hover:after {
 
 #logo {
     height: 100%;
+    font-size:1.25em;
 }
 
 #logo-cont {
@@ -370,6 +371,7 @@ button:hover:after {
     height: 100%;
     align-items: center;
     justify-content: center;
+    width:fit-content;
 }
 
 .nav-btn,
