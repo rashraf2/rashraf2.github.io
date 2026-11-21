@@ -721,8 +721,8 @@ body.all-grids {
 /*Media*/
 @media only screen and (max-width:970px) {
     :root {
-               --n1: 20px;
-    --n2: 10px;
+               --n1: 22px;
+    --n2: 11px;
     .grid {
         grid-template-columns: repeat(1, 1fr);
     }
