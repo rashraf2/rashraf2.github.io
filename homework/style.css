@@ -6,8 +6,8 @@
     --c2: black;
     /*--n1: 20px;
     --n2: 10px;4*/
-        --n1: 24px;
-    --n2: 18px;
+        --n1: 25px;
+    --n2: 15px;
     --nav: 95px;
     /*b# means "background color #" ex. b1 = background color 1, c# = color#*/
 }
@@ -72,7 +72,7 @@ button {
     font-weight: bold;
     font-size: 1.2em;
     border-radius: var(--n1);
-       padding: var(--n2);
+    padding: calc(var(--n1) * 0.75);
     padding-inline: var(--n1);
 
 }
@@ -433,7 +433,7 @@ button:hover:after {
 .theme-btn {
     font-size: 1.2em;
     font-weight: bold;
-    padding: calc(var(--n1) * 0.6);
+    padding: calc(var(--n1) * 0.75);
 }
 
 /*Settings (embedded in <nav>)*/
@@ -463,7 +463,7 @@ button:hover:after {
     width: 100%;
     font-size: 1.2em;
     background: var(--b1);
-    padding: var(--n2);
+    padding: calc(var(--n1) * 0.75);
     border-radius: var(--n1);
     align-items: center;
 }
