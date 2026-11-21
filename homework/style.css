@@ -403,7 +403,7 @@ button:hover:after {
 /*Themes*/
 #themes-popup {
     width: calc(100% - 40px);
-    max-width: 600px;
+    max-width: 475px;
     height: 40vh;
     border-radius: var(--n1);
     margin-inline: 20px;
