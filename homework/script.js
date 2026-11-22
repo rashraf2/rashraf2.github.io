@@ -24,7 +24,7 @@ window.onload = async function () {
     await checkboxFunct();
     await userFunct();
     await themeFunct();
-    await wait(250);
+            await wait(750);
     finishedLoading();
 }
 function togglePopup(param1, param2, disabled) {
